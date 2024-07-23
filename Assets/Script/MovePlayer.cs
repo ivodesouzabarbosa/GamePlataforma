@@ -47,7 +47,7 @@ public class MovePlayer : MonoBehaviour
         _move = value.ReadValue<Vector3>();
     }
 
-    public void Jump(InputAction.CallbackContext value)
+    public void SetJump(InputAction.CallbackContext value)
     {
         if (_groundCheck)
         {

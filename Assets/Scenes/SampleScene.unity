@@ -718,7 +718,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1671243789}
         m_TargetAssemblyTypeName: MovePlayer, Assembly-CSharp
-        m_MethodName: Jump
+        m_MethodName: SetJump
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -750,7 +750,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1671243789}
         m_TargetAssemblyTypeName: MovePlayer, Assembly-CSharp
-        m_MethodName: Jump
+        m_MethodName: SetJump
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
