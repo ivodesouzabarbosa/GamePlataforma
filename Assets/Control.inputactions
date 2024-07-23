@@ -1,0 +1,259 @@
+{
+    "name": "Control",
+    "maps": [
+        {
+            "name": "P1",
+            "id": "2a4c5548-83a7-4016-858e-157226f0c7b2",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "a4f51566-7c46-4496-b61c-34234e228eda",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "52144536-dbd9-4e9b-b0c6-b4b0a536fd5c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveJostick",
+                    "type": "Value",
+                    "id": "37a5d002-548b-4b55-882f-ddcfcdb00ea2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "JumpJostick",
+                    "type": "Button",
+                    "id": "15785a08-dba1-4639-8bd1-91438ddc0ff9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "3D Vector",
+                    "id": "8be66456-7888-4845-bb4e-9d2321f67d0e",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "6c09aa38-e7ab-4dad-a792-c374eccd069e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "c6d5ae09-dea4-47ad-ba5f-1a56457e8b92",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "35eaec7b-bd52-46e0-996e-288c56de3c0f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "162a6765-e614-4607-be8a-3af439dac0ac",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "209ae078-04b7-443c-a6bc-4602608a9899",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "a0bde388-e84f-4116-b340-cf9d81fa0a95",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "57fa988e-20bd-42bf-94a4-bbe8beb8d5c7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1baa89e3-9375-4826-8f52-4688e38b884d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "3D Vector",
+                    "id": "07ad7a04-99d0-42a7-8eed-1b165177d497",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveJostick",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "51341481-205c-48bc-a611-c1eeff08773f",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "a50a9cda-667e-493d-8447-9973dad19b25",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "68563917-f9e0-4a39-90d9-4c72db18279c",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2498f2b3-2994-4241-9e52-2285387f0ae9",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "92733124-e002-4d9b-983a-c115a61d777e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "918dea21-0caf-40d4-997e-aeded306c233",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "MoveJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "cd58d307-5939-48d9-a6d1-153a042a842d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "JumpJostick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Player1",
+            "bindingGroup": "Player1",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
